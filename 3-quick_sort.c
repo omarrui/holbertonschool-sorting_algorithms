@@ -93,5 +93,5 @@ void quick_sort(int *array, size_t size)
 	if (array == NULL || size < 2) /* Vérifie les cas de base */
 		return;
 
-	quick_sort_recursive(array, size, 0, size - 1); /* Lance le tri récursif */
+	quick_sort_recursive(array, size, 0, size - 1); /* Lance le tri récursif*/
 }
